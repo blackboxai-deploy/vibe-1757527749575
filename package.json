@@ -4,9 +4,9 @@
   "private": true,
   "description": "Mobile DJ app with dual decks, track search, and suggestions",
   "scripts": {
-    "dev": "PORT=3000 next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && PORT=3000 next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
